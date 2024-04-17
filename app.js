@@ -1,4 +1,4 @@
-import corse from 'cors';
+import cors from 'cors';
 import express from 'express';
 import morgan from 'morgan';
 import alumnoRoutes from './routes/auth.alumno.routes.js';
@@ -11,7 +11,7 @@ import cadenaAlumnRoutes from './routes/auth.cadenaAlumn.routes.js';
 import cadenaVisitaRoutes from './routes/auth.cadenaVisita.routes.js';
 
 const app = express();
-app.use(corse());
+app.use(cors());
 app.use(morgan('dev'));
 app.use(express.json());
 
