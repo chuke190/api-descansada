@@ -3,6 +3,7 @@
   "version": "0.9.0",
   "description": "ayudaME AYUDAME",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "nodemon index.js"
   },
